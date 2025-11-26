@@ -1,0 +1,16 @@
+Ads injection READY report
+
+Project root: /mnt/data/pdfmagic_ads_ready/PDFMagicTools
+
+Modified files:
+- components/AdBox.tsx
+- pages/_document.tsx
+- pages/index.tsx
+- pages/compress-pdf.tsx
+- pages/jpg-to-pdf.tsx
+- pages/merge-pdf.tsx
+- pages/pdf-to-jpg.tsx
+- pages/rotate-pdf.tsx
+- pages/split-pdf.tsx
+- pages/index.tsx
+- pages/sitemap.xml.tsx
