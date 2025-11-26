@@ -1,0 +1,12 @@
+Canvas migration (automated) - summary
+
+Project root: /mnt/data/pdfmagic_extracted/PDFMagicTools
+
+Modified files (0):
+
+package.json changed: True
+
+Next steps:
+1) In your local machine: run `npm install` in the project root and test with `npm run dev`.
+2) Commit changes to your git repo and push — or re-upload zip.
+3) Deploy to Vercel. It should build cleanly now.
