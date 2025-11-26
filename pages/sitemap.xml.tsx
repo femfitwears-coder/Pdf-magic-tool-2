@@ -1,4 +1,5 @@
 import { GetServerSideProps } from 'next'
+import AdBox from '../components/AdBox';
 
 function generateSiteMap() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yoursite.com'
@@ -49,3 +50,5 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 }
 
 export default SiteMap
+
+

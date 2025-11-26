@@ -3,6 +3,7 @@ import Layout from '@/components/Layout'
 import ToolHeader from '@/components/ToolHeader'
 import ToolControls from '@/components/ToolControls'
 import { compressPdf, downloadFile } from '@/lib/pdfUtils'
+import AdBox from '../components/AdBox';
 
 export default function CompressPDF() {
   const [processing, setProcessing] = useState(false)
@@ -115,3 +116,5 @@ export default function CompressPDF() {
     </Layout>
   )
 }
+
+<AdBox />

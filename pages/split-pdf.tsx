@@ -3,6 +3,7 @@ import Layout from '@/components/Layout'
 import ToolHeader from '@/components/ToolHeader'
 import ToolControls from '@/components/ToolControls'
 import { splitPdf, downloadFile } from '@/lib/pdfUtils'
+import AdBox from '../components/AdBox';
 
 export default function SplitPDF() {
   const [processing, setProcessing] = useState(false)
@@ -101,3 +102,5 @@ export default function SplitPDF() {
     </Layout>
   )
 }
+
+<AdBox />

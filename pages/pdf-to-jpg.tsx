@@ -3,6 +3,7 @@ import Layout from '@/components/Layout'
 import ToolHeader from '@/components/ToolHeader'
 import ToolControls from '@/components/ToolControls'
 import { pdfToImages, downloadFile } from '@/lib/pdfUtils'
+import AdBox from '../components/AdBox';
 
 export default function PdfToJpg() {
   const [processing, setProcessing] = useState(false)
@@ -101,3 +102,5 @@ export default function PdfToJpg() {
     </Layout>
   )
 }
+
+<AdBox />

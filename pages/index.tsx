@@ -1,6 +1,7 @@
 import Layout from '@/components/Layout'
 import ToolCard from '@/components/ToolCard'
 import AdSense from '@/components/AdSense'
+import AdBox from '../components/AdBox';
 
 export default function Home() {
   const tools = [
@@ -50,6 +51,8 @@ export default function Home() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Free Online PDF Tools
           </h1>
+  <AdBox />
+
           <p className="text-xl md:text-2xl text-primary-100 mb-8 max-w-3xl mx-auto">
             Edit, convert, and manage your PDF files directly in your browser. 
             100% free, secure, and private - no file uploads required.
@@ -122,3 +125,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+<AdBox />

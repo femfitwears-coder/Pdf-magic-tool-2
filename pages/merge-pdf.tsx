@@ -4,6 +4,7 @@ import ToolHeader from '@/components/ToolHeader'
 import ToolControls from '@/components/ToolControls'
 import AdSense from '@/components/AdSense'
 import { mergePdfs, downloadFile } from '@/lib/pdfUtils'
+import AdBox from '../components/AdBox';
 
 export default function MergePDF() {
   const [processing, setProcessing] = useState(false)
@@ -98,3 +99,5 @@ export default function MergePDF() {
     </Layout>
   )
 }
+
+<AdBox />

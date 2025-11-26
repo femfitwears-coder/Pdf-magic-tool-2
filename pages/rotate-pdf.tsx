@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import ToolHeader from '@/components/ToolHeader'
 import { rotatePdf, downloadFile } from '@/lib/pdfUtils'
+import AdBox from '../components/AdBox';
 
 export default function RotatePDF() {
   const [processing, setProcessing] = useState(false)
@@ -125,3 +126,5 @@ export default function RotatePDF() {
     </Layout>
   )
 }
+
+<AdBox />
