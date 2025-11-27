@@ -1,8 +1,0 @@
-# robots.txt for PDF Tools
-
-User-agent: *
-Allow: /
-
-# Sitemaps
-# Update with your actual domain after deployment
-Sitemap: https://yoursite.com/sitemap.xml
