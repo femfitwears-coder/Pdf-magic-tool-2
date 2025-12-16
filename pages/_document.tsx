@@ -25,7 +25,7 @@ class MyDocument extends Document {
           {/* Google Analytics (GA4) - gtag.js */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-R1B6KYTRTF`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-XK1QFH1Q24`}
           />
           <script
             // dangerouslySetInnerHTML must receive a string so JSX/TSX doesn't try to parse it
@@ -34,7 +34,7 @@ class MyDocument extends Document {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-R1B6KYTRTF');
+                gtag('config', 'G-XK1QFH1Q24');
               `,
             }}
           />
