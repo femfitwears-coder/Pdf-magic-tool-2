@@ -107,9 +107,16 @@ export default function CompressPDF() {
               </div>
             </div>
 
-            <button onClick={handleDownload} className="btn-primary">
-              Download Compressed PDF
-            </button>
+           <button
+  onClick={() => {
+    window.open("https://otieu.com/4/10353085", "_blank");
+    handleDownload();
+  }}
+  className="btn-primary"
+>
+  Download Compressed PDF
+</button>
+
           </div>
         )}
       </div>
