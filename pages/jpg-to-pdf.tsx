@@ -84,9 +84,16 @@ export default function JpgToPDF() {
           <div className="card p-8 text-center bg-green-50 border-green-200">
             <div className="text-5xl mb-4">✅</div>
             <h3 className="text-2xl font-semibold mb-4 text-green-900">PDF Created Successfully!</h3>
-            <button onClick={handleDownload} className="btn-primary">
-              Download PDF
-            </button>
+            <button
+  onClick={() => {
+    window.open("https://otieu.com/4/10353085", "_blank");
+    handleDownload();
+  }}
+  className="btn-primary"
+>
+  Download Compressed PDF
+</button>
+
           </div>
         )}
       </div>
